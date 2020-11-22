@@ -1,4 +1,6 @@
-# myweatherdashboard.github.io #06 Server-Side APIs Homework: Weather Dashboard
+# myweatherdashboard.github.io 
+# 06 Server-Side APIs Homework: Weather Dashboard
+
 
 ## User Story
 
