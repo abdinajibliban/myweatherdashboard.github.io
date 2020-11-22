@@ -1,0 +1,25 @@
+.fab .fa-searchengin {
+    font-size: 500%;
+}
+.sidebar {
+    border: 2px solid black;
+    margin: 15px;
+    text-align: center;
+}
+
+#savedCity {
+    height: 55vh;
+}
+
+#currentWeather {
+    border: 2px solid blue;
+    width: 95vh;
+    height: 50vh;
+    margin: 15px;
+}
+
+#fiveForecast {
+    border: 2px solid greenyellow;
+    height: 20vh;
+    margin: 15px;
+}
