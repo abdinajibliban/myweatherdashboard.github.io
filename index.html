@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,29 +20,31 @@
     
     <div class="container "> 
          <div class="row">   
-            <div class="col-md-3 sidebar">
+            <div class="col-3 sidebar">
                 <div >
                     <h3>Search for a City:</h3>
                     <form action="#">
                         <div class="searchCity row" >
-                            <input type="text" id="cityText">
+                            <input type="text" id="cityText" placeholder="City Name">
                             <div id="searchIcon">
                                 <button type="submit" id=submit><i class="btn btn-primary fas fa-search"></i></button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div id="savedCity">
+                <div class="myList">
                     <!-- saved city names -->
+                    <ul id="savedCity">
+
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-md-09">
-                <div id="currentWeather"> 
-                    <!--<h1>current weather</h1> -->
-                 </div>
+            <div class="row col-8">
+                <div id="currentWeather"> </div>
+                    
                 <div id="fiveForecast">
-                    <!-- <h1></h1> -->
+                  
 
                 </div>
             </div>
@@ -50,7 +52,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html> 
 

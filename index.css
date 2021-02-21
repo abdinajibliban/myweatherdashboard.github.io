@@ -3,8 +3,13 @@
 }
 .sidebar {
     border: 2px solid black;
+    background-color: cadetblue;
+    border-radius: 2rem;
     margin: 15px;
     text-align: center;
+    padding: 2vh;
+    width: fit-content;
+    
 }
 
 #savedCity {
@@ -12,14 +17,56 @@
 }
 
 #currentWeather {
-    border: 2px solid blue;
-    width: 95vh;
+    width: 100%;
     height: 50vh;
     margin: 15px;
+    padding: 2vh;
 }
 
 #fiveForecast {
-    border: 2px solid greenyellow;
-    height: 20vh;
+    width: 100%;
     margin: 15px;
+}
+div.card{
+  border: none;
+}
+
+#fiveForecast  div.card {
+    border-radius: 1rem;
+    text-align: center;
+}
+#fiveForecast div.row {
+    display: flex;
+    justify-content: right;
+    align-content: center ;
+    width: max-content;
+    border-radius: 3rem;
+}
+li.cityHistory {
+    font-size: 20pt;
+    list-style: none;
+    border: 2px solid black;
+    margin-bottom: 3px;
+    margin-left: 0;;
+    width: 100%;
+}
+ul#savedCity {
+    margin: 0;
+    padding: 0px;
+}
+input {
+    width: max-content;
+    text-align: center ;
+}
+div.searchCity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+div.myList {
+    padding: 10px;
+    overflow: auto;
+    height: 63vh;
+    margin-top: 2vh;
 }

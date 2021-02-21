@@ -28,6 +28,6 @@ WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 ```
 
-## Challenges
+## Result
 
-I encountered a number of challenges while working on this assignment. I was able to get user input and display current weather. I struggled with keeping a list of the cities searched on the left  hand tab and getting all of the 5 day forecast icons to appear. 
+This weather dashboard can be used to plan a trip accordingly. 
